@@ -4,4 +4,17 @@ version = "0.1.0"
 authors = ["khaled"]
 edition = "2018"
 
+[[bin]]
+name = "hoard"
+path = "src/hoard.rs"
+
+[[bin]]
+name = "rasket"
+path = "src/rasket.rs"
+
 [dependencies]
+tokio = "0.1"
+slog = "2.4"
+log = "0.4"
+futures = "0.1"
+structopt = "0.2"
